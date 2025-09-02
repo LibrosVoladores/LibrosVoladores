@@ -4,15 +4,136 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Libros Voladores — Compramos libros infantiles ilustrados</title>
-  <meta name="description" content="Recibimos ycompramos libros infantiles ilustrados. Retiro a domicilio en Providencia, Vitacura, Las Condes, Lo Barnechea y La Reina.">
+  <meta name="description" content="Recibimos y compramos de libros infantiles ilustrados. Retiro a domicilio en Providencia, Vitacura, Las Condes, Lo Barnechea y La Reina.">
   <link rel="icon" href="favicon.ico">
+  <meta property="og:title" content="Libros Voladores — Recibimos y compramos libros infantiles ilustrados">
+  <meta property="og:description" content="Rápido, justo y sin complicaciones. Retiro a domicilio.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="og.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Nunito:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Libros Voladores 📚</h1>
-  <p>Recibimos y compramos libros infantiles ilustrados en Providencia, Vitacura, Las Condes, Lo Barnechea y La Reina.</p>
-  <p><a href="https://wa.me/56971356706?text=Hola%20Libros%20Voladores!">Contáctanos por WhatsApp</a></p>
-  <p><a href="mailto:hola@librosvoladores.cl">hola@librosvoladores.cl</a></p>
-  <footer>© <span id="y"></span> Libros Voladores</footer>
-  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+  <header class="site-header">
+    <div class="container nav">
+      <a href="#inicio" class="brand">
+        <span class="badge">LV</span>
+        <span class="brand-name">Libros Voladores</span>
+      </a>
+      <nav class="menu" aria-label="Menú principal">
+        <a href="#como-funciona">Cómo funciona</a>
+        <a href="#que-compramos">Qué compramos</a>
+        <a href="#preguntas">Preguntas</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <a class="btn primary" href="https://wa.me/56971356706?text=Hola%20Libros%20Voladores!%20Quiero%20vender%20libros%20infantiles." target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+  </header>
+
+  <main id="inicio">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1>Deja que tus libros sigan <span class="underline">volando</span> ✨</h1>
+          <p class="lead">
+            Recibimos y compramos <strong>libros infantiles ilustrados</strong> en buen estado.  
+            Retiro en <strong>Providencia, Vitacura, Las Condes, Lo Barnechea y La Reina</strong>.  
+          </p>
+          <div class="cta-row">
+            <a class="btn primary" href="https://wa.me/56971356706?text=Hola%20Libros%20Voladores!%20Quiero%20vender%20libros%20infantiles." target="_blank" rel="noopener">Vender por WhatsApp</a>
+            <a class="btn ghost" href="mailto:hola@librosvoladores.cl">Escribir por correo</a>
+          </div>
+        </div>
+        <div class="hero-visual card glass">
+          <svg viewBox="0 0 300 200" class="hero-svg" role="img" aria-label="Libros volando">
+            <g transform="translate(40,60) rotate(-8)">
+              <rect width="90" height="50" rx="6" fill="#8b5cf6"/>
+              <rect x="5" y="10" width="80" height="30" fill="#fff" opacity=".9"/>
+            </g>
+            <g transform="translate(160,30) rotate(12) scale(.8)">
+              <rect width="90" height="50" rx="6" fill="#06b6d4"/>
+              <rect x="5" y="10" width="80" height="30" fill="#fff" opacity=".9"/>
+            </g>
+            <g transform="translate(100,120) rotate(4) scale(.6)">
+              <rect width="90" height="50" rx="6" fill="#f59e0b"/>
+              <rect x="5" y="10" width="80" height="30" fill="#fff" opacity=".9"/>
+            </g>
+          </svg>
+          <p class="muted center">Ilustración conceptual</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="como-funciona" class="section">
+      <div class="container">
+        <h2>Cómo funciona</h2>
+        <div class="cards cols-3">
+          <div class="card"><h3>Paso 1</h3><p>Escríbenos con títulos y fotos.</p></div>
+          <div class="card"><h3>Paso 2</h3><p>Recibes una oferta rápida y justa.</p></div>
+          <div class="card"><h3>Paso 3</h3><p>Retiramos y pagamos al momento.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="que-compramos" class="section alt">
+      <div class="container">
+        <h2>Qué compramos</h2>
+        <div class="cards cols-2">
+          <div class="card">
+            <ul>
+              <li>Libros ilustrados y primeras lecturas.</li>
+              <li>En buen estado: sin hojas sueltas, ni rayados, maltratados o con humedad.</li>
+              <li>Mejores precios por lotes grandes.</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>No recibimos</h3>
+            <ul>
+              <li>Textos escolares</li>
+              <li>Enciclopedias antiguas</li>
+              <li>Fotocopias o libros dañados</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="preguntas" class="section">
+      <div class="container">
+        <h2>Preguntas frecuentes</h2>
+        <div class="cards cols-2">
+          <div class="card"><h3>¿Dónde retiran?</h3><p>Providencia, Vitacura, Las Condes, Lo Barnechea y La Reina.</p></div>
+          <div class="card"><h3>¿Cómo pagan?</h3><p>Transferencia inmediata al retiro.</p></div>
+          <div class="card"><h3>¿Aceptan pocos libros?</h3><p>Sí, también packs pequeños.</p></div>
+          <div class="card"><h3>¿Y con dedicatoria?</h3><p>Si el estado es bueno, no es problema.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="section">
+      <div class="container">
+        <h2>Contacto</h2>
+        <div class="card contact">
+          <p>WhatsApp: <a href="https://wa.me/56971356706" target="_blank">+56 9 7135 6706</a><br>
+          Correo: <a href="mailto:hola@librosvoladores.cl">hola@librosvoladores.cl</a></p>
+          <div class="cta-row">
+            <a class="btn primary" href="https://wa.me/56971356706" target="_blank">Vender por WhatsApp</a>
+            <a class="btn ghost" href="mailto:hola@librosvoladores.cl">Escribir correo</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="y"></span> Libros Voladores — Retiro y compra de libros infantiles ilustrados</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('y').textContent=new Date().getFullYear();
+  </script>
 </body>
 </html>
