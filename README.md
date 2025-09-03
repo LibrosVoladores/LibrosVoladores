@@ -24,5 +24,4 @@ Este sitio es un landing page simple para **Libros Voladores**, con información
    - Folder: `/ (root)`
 5. Guarda y espera 1-2 minutos.
 6. Tu sitio estará disponible en  
-   `https://<usuario>.github.io/<repositorio>/`  
-   y si tienes un dominio (ej: `www.librosvoladores.cl`) apúntalo con un registro CNAME en DNS.
+   `https://<usuario>.github.io/<repositorio>/`.
