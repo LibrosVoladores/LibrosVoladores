@@ -1,14 +1,28 @@
-# Libros Voladores
+# Libros Voladores — Sitio web estático
 
-Sitio estático simple para [librosvoladores.cl](https://librosvoladores.cl)
+Este sitio es un landing page simple para **Libros Voladores**, con información, preguntas frecuentes y contacto por WhatsApp o correo.
 
-## Contenido
-- `index.html` → página principal con enlace a WhatsApp y correo.
-- `favicon.ico` → ícono del sitio.
-- `CNAME` → configuración para GitHub Pages con dominio personalizado.
+## 📂 Estructura
+- `index.html` → Página principal
+- `styles.css` → Estilos
+- `favicon.ico` → Icono de la pestaña del navegador
+- `og.png` → Imagen de vista previa en redes sociales
+- `ninos-leyendo.png` → Ilustración en la sección "Lectura en compañía"
 
-## Deploy en GitHub Pages
-1. Subir estos archivos a un repositorio nuevo en GitHub.
-2. En **Settings → Pages**, elegir branch `main` y carpeta `/ (root)`.
-3. GitHub Pages publicará el sitio automáticamente en `https://www.librosvoladores.cl` gracias al archivo `CNAME`.
+## ✏️ Cómo editar
+- Cambia textos en `index.html`
+- Cambia colores en la sección `:root` de `styles.css`
+- Reemplaza imágenes (mantén los mismos nombres de archivo o actualiza las rutas en el HTML)
 
+## 🚀 Cómo publicar en GitHub Pages
+1. Crea un repositorio en GitHub (ej: `LibrosVoladores`).
+2. Sube todos los archivos de esta carpeta a la raíz del repositorio.
+3. Entra a `Settings → Pages`.
+4. En *Build and deployment*, selecciona:
+   - Source: `Deploy from a branch`
+   - Branch: `main`
+   - Folder: `/ (root)`
+5. Guarda y espera 1-2 minutos.
+6. Tu sitio estará disponible en  
+   `https://<usuario>.github.io/<repositorio>/`  
+   y si tienes un dominio (ej: `www.librosvoladores.cl`) apúntalo con un registro CNAME en DNS.
